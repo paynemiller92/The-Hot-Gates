@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "TheHotGatesFinal Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"Debug",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"Debug",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheHotGatesFinal Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"Debug",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"DebugGame",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"DebugGame",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheHotGatesFinal Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"DebugGame",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"Development",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"Development",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheHotGatesFinal Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"Development",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"Shipping",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"Shipping",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheHotGatesFinal Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"Shipping",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"Test",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"Test",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheHotGatesFinal Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"Mac",
+				"Test",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"Debug",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"Debug",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheHotGatesFinal IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"Debug",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"DebugGame",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"DebugGame",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheHotGatesFinal IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"DebugGame",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"Development",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"Development",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheHotGatesFinal IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"Development",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"Shipping",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"Shipping",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheHotGatesFinal IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"Shipping",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"Test",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"Test",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheHotGatesFinal IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinal IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinal",
+				"IOS",
+				"Test",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinalEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinalEditor",
+				"Mac",
+				"Debug",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinalEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinalEditor",
+				"Mac",
+				"Debug",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheHotGatesFinalEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinalEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinalEditor",
+				"Mac",
+				"Debug",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinalEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinalEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinalEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinalEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheHotGatesFinalEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinalEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinalEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinalEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinalEditor",
+				"Mac",
+				"Development",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinalEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinalEditor",
+				"Mac",
+				"Development",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheHotGatesFinalEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "TheHotGatesFinalEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TheHotGatesFinalEditor",
+				"Mac",
+				"Development",
+				"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/TheHotGatesFinal.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		}
+	]
+}

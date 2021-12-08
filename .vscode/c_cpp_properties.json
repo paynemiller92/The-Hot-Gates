@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "TheHotGatesFinalEditor Editor Mac Development (TheHotGatesFinal)",
+            "intelliSenseMode": "clang-x64",
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compileCommands": "/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/.vscode/compileCommands_TheHotGatesFinal.json",
+            "cStandard": "c17",
+            "cppStandard": "c++98"
+        },
+        {
+            "name": "Mac",
+            "intelliSenseMode": "clang-x64",
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compileCommands": "/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/.vscode/compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++98"
+        }
+    ],
+    "version": 4
+}

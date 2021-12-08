@@ -1,0 +1,27 @@
+[
+	{
+		"file": "/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/Source/TheHotGatesFinal/Enemy.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/.vscode/compileCommands_Default/TheHotGatesFinal.191.rsp\"",
+		"directory": "/Users/Shared/Epic Games/UE_4.27/Engine/Source"
+	},
+	{
+		"file": "/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/Source/TheHotGatesFinal/Enemy.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/.vscode/compileCommands_Default/TheHotGatesFinal.191.rsp\"",
+		"directory": "/Users/Shared/Epic Games/UE_4.27/Engine/Source"
+	},
+	{
+		"file": "/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/Source/TheHotGatesFinal/TheHotGatesFinal.Build.cs",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/.vscode/compileCommands_Default/TheHotGatesFinal.191.rsp\"",
+		"directory": "/Users/Shared/Epic Games/UE_4.27/Engine/Source"
+	},
+	{
+		"file": "/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/Source/TheHotGatesFinal/TheHotGatesFinal.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/.vscode/compileCommands_Default/TheHotGatesFinal.191.rsp\"",
+		"directory": "/Users/Shared/Epic Games/UE_4.27/Engine/Source"
+	},
+	{
+		"file": "/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/Source/TheHotGatesFinal/TheHotGatesFinal.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/payne.miller/Documents/School/ITCS-5232-Game-Design-Studio/The-Hot-Gates/TheHotGatesFinal/.vscode/compileCommands_Default/TheHotGatesFinal.191.rsp\"",
+		"directory": "/Users/Shared/Epic Games/UE_4.27/Engine/Source"
+	}
+]
